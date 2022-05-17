@@ -1,0 +1,38 @@
+body {
+    background-color: aliceblue;
+}
+
+.welcome-section {
+    display: flex;
+    justify-content: center;
+}
+
+.welcome-container {
+    border: 5px solid rgb(188, 139, 139);
+    border-radius: 25px;
+    text-align: center;
+    width: 50%;
+    background-color:rgb(160, 95, 99);
+}
+
+.declare-winner {
+    height: 100px;
+    text-align: center;
+}
+
+.button-container {
+    display: flex;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+}
+
+.button {
+    height: 50%;
+    width: 10%;
+}
+
+.score-container {
+    display: flex;
+}
