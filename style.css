@@ -1,5 +1,9 @@
+html {
+    height: 100%;
+}
+
 body {
-    background-color: aliceblue;
+    background: linear-gradient(180deg, rgb(182, 182, 249), rgb(163, 87, 87));
 }
 
 .welcome-section {
@@ -8,17 +12,22 @@ body {
 }
 
 .welcome-container {
-    border: 5px solid rgb(188, 139, 139);
+    border: 2px solid rgb(0, 0, 0);
     border-radius: 25px;
     text-align: center;
     width: 50%;
-    background-color:rgb(160, 95, 99);
+    margin: 1%;
+    background-color:rgb(109, 174, 201);
 }
 
-.declare-winner {
+.winner-container {
     height: 100px;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
 }
+
 
 .button-container {
     display: flex;
@@ -29,10 +38,33 @@ body {
 }
 
 .button {
+    cursor: pointer;
+    border-radius: 25px;
+    border: 5px solid black;
+    background-color: rgb(234, 191, 234);
+    font-size: 18px;
     height: 50%;
     width: 10%;
 }
 
+.result-section {
+    display: flex;
+    justify-content: center;
+}
+
+.result-container {
+    width: 40%;
+    background-color: rgb(252, 182, 182);
+    border: 2px solid white;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 3%;
+}
+
 .score-container {
     display: flex;
+    align-items: center;
 }
